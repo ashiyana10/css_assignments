@@ -1,42 +1,44 @@
 body{
-			background-color: #D8DA3D;
-			color: #80007E;
+	background-color: #D8DA3D;
+	color: #80007E;
 
-		}
-		.menu
-		{
-			float: left;
-		}
-		ul{
-			
-			list-style: none;
-			width: 200px;
-			margin-top: 40px;
-		}
-		ul li
-		{
-			font-size: 18px;
-			margin-top: 9px;	
-			padding: 5px;
-			background-color: white;
-			border-right: 20px solid black;
-		}
-		/* main class contains css property of right section */
-		.main {
-			width: 79%;
-			float: right;
+}
+/* css property for left section */
+.menu
+{
+	float: left;
+}
 
-			}
+ul{
 
-			h1{
-				font-family: sans-serif;
-			}
-			hr{
-				margin-top: 50px;
-				border-style: dotted;
-			}
+	list-style: none;
+	width: 200px;
+	margin-top: 40px;
+}
+ul li
+{
+	font-size: 18px;
+	margin-top: 9px;	
+	padding: 5px;
+	background-color: white;
+	border-right: 20px solid black;
+}
+/* main class contains css property of right section */
+.main {
+	width: 79%;
+	float: right;
 
-			.end{
-				font-style: italic;
-			}
-	</style>
+}
+
+h1{
+	font-family: sans-serif;
+}
+/* for horizontal line */
+hr{
+	margin-top: 50px;
+	border-style: dotted;
+}
+/* for last paragraph in right section*/
+.end{
+	font-style: italic;
+}
