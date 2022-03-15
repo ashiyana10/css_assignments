@@ -1,0 +1,78 @@
+body{
+background-color: #D8DA3D;
+color: #80007E;
+
+}
+/* for left section of the web page*/
+.menu
+{
+float: left;
+}
+/* ul list for all the w3schools courses*/
+ul{
+
+list-style: none;
+width: 200px;
+margin-top: 40px;
+}
+ul li
+{
+font-size: 18px;
+margin-top: 9px;	
+padding: 5px;
+background-color: white;
+
+}
+/* for orange color at the end of the w3schools course */
+.orange{
+border-right: 20px solid #FF7F00;
+}
+/* for blue color at the end of the w3schools course */
+.blue{
+border-right: 20px solid #0000FF;
+}
+/* main class contains css property of right section */
+.main {
+width: 79%;
+float: right;
+
+}
+
+h1{
+font-family: sans-serif;
+}
+/* horizontal line*/
+hr{
+margin-top: 50px;
+border-style: dotted;
+}
+/* for first div section black dashed border at the right section*/
+.first{
+border: 2px dashed black;
+color: black;
+font-size:18px;
+padding: 7px;
+width: 80%;
+}
+/* for second div section orange  dashed border at the right section*/
+.second{
+border: 2px dashed #FF7F00;
+color: black;
+font-size:18px;
+padding: 7px;
+width: 80%;
+text-align: right;
+}
+/* for third  div section blue dotted border at the right section*/
+.third{
+border: 2px dotted #0000FF;
+color: black;
+font-size:18px;
+padding: 7px;
+width: 80%;
+text-align: center;
+}
+
+.end{
+font-style: italic;
+}
