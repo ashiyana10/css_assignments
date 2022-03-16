@@ -1,0 +1,30 @@
+/* for set the border of image 1 and image 2*/
+.image{
+	border: 2px solid black;
+}
+/* css property for image1*/
+.image1_sub
+{
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("Assignment-3.PNG");
+}
+/* css property for image2*/
+.image2_sub{
+	height: 270px;
+	width: 100%;
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("Assignment-3.PNG");
+}
+/* css property for image3*/
+.image3_sub
+{
+	height: 300px;
+	width: 500px;
+	background-repeat: no-repeat;
+	background-image: url("Assignment-3.PNG");	
+}
